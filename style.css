@@ -98,6 +98,7 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 999;
+  color: rgb(255, 214, 127);
 }
 
 /* NAV */
@@ -127,6 +128,7 @@ body {
   backdrop-filter: blur(12px);
   z-index: 100;
   transition: 0.3s;
+  color: burlywood;
 }
 
 .logo {
@@ -181,6 +183,14 @@ body {
   opacity: 0;
 }
 
+.reveal-text {
+  color: burlywood;
+}
+
+.bbb {
+  color: rgb(253, 223, 178);
+}
+
 /* PARALLAX */
 .parallax {
   height: 80vh;
@@ -189,6 +199,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  color: rgb(142, 250, 250);
 }
 
 /* SECTIONS */
@@ -285,4 +296,8 @@ body {
 .nnn {
   color: #63f2f7;
   font-family: cursive;
+}
+
+.eee {
+  color: antiquewhite;
 }
